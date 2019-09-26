@@ -9,6 +9,7 @@ class Ninjas :
 {
 public:
 	void ThrowStars();
+	Ninjas()
 
 };
 

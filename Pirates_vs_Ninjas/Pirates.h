@@ -5,6 +5,6 @@ class Pirates :
 {
 public:
 	void UseSword();
-	
+	Pirates()
 };
 
