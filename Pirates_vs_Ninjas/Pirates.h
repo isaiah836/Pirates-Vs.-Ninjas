@@ -5,6 +5,14 @@ class Pirates :
 {
 public:
 	void UseSword();
-	Pirates()
+	Pirates();//constructor
+	void Talk(string name, string stuffToSay) override;
+	virtual void Attack(int hitPoints);
+	virtual void Help();
+private:
+	string Name;
+	string stuffToSay;
+	int hitPoints;
+
 };
 

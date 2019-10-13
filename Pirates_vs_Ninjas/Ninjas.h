@@ -9,7 +9,13 @@ class Ninjas :
 {
 public:
 	void ThrowStars();
-	Ninjas()
-
+	Ninjas();
+	void Talk(string name, string stuffToSay) override;
+	void Attack(int hitPoints) override;
+	void Help() override;
+private:
+	string Name;
+	string stuffToSay;
+	int hitPoints;
 };
 

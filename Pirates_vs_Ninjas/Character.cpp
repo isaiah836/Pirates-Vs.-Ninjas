@@ -3,10 +3,18 @@
 
 using namespace std;
 
-class Character
+ int Character::GetHealth(int health)
 {
-public:
+}
+ void Character::SetHealth(int health)
+ {
+	 if (health < 0)
+	 {
+		 cout << "/n/n Character has Died/n/n";
 
-private:
-
-};
+	 }
+	 else
+	 {
+		 //do nothing for now
+	 }
+ }

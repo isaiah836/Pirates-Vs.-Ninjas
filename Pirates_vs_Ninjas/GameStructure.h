@@ -4,6 +4,7 @@
 
 class GameStructure
 {
-
+public:
+	virtual void Help();
 };
 
