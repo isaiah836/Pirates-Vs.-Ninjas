@@ -10,5 +10,5 @@ void Ninjas::Attack(int hitPoints)
 }
 void Ninjas::Help()
 {
-	cout << "Ninjas are very sneaky. I throw ninjas stars!"
+	cout << "Ninjas are very sneaky. I throw ninjas stars!";
 }

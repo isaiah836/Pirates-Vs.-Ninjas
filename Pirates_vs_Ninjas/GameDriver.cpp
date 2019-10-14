@@ -2,11 +2,15 @@
 #include <iostream>
 
 
+void Main()
+{
+
+}
 void GameDriver::DisplayIntro(){
-	std::cout << "Welcome to Pirates vs. Ninjas!";
+	cout << "Welcome to Pirates vs. Ninjas!" << endl;
 }
 
-void GameDriver::DisplayStats()
+void GameDriver::DisplayStats(string character)
 {
 }
 
