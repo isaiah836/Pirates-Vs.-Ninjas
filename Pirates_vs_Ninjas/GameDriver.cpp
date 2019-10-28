@@ -8,6 +8,8 @@ void Main()
 	int choice;
 	Pirates* piratePtr;
 	Ninja* ninjaPtr;
+	char userchar;
+
 	do {
 
 
@@ -31,12 +33,14 @@ void GameDriver::DisplayStats(string character)
 void GameDriver::RandomRoll(int randNum)
 {
 }
-void GameDriver::PickCharacter(char userChoice)
+char GameDriver::PickCharacter(char userChoice)
 {
 	do
 	{
 		cout << "\t\tWhich Fighter are you?\n\tA)Pirate\n\tB)Ninja\n";
 		cin >> userChoice;
-	} while (userChoice != "a" || "b");
+	} while (userChoice != 'a' || 'b');
+
+	return userChoice;
 }
 

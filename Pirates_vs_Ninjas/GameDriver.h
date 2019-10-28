@@ -11,7 +11,7 @@ class GameDriver
 public:
 	void DisplayIntro();
 	void Fight();
-	void PickCharacter(char userChoice);
+	char PickCharacter(char userChoice);
 	void DisplayStats(string character);
 	void RandomRoll(int randNum);
 private:
